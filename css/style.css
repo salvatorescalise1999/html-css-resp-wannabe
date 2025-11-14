@@ -132,26 +132,29 @@ img {
 
 /* TABLET */
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-
+@media screen and (max-width:768px) {
     .container {
-        width: 100%;
+        max-width: 100%;
     }
-
-    .col {
-        flex-basis: 50%;
-    }
-
 }
-
-
 
 
 /* MOBILE */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:480px) {
 
-    h1 {
+     .row {
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+
+    .col {
+        flex-basis: 100%;
+    }
+
+    /* POTEVO FINIRE L'ESERCIZIO ANCHE SOLO CON LE 3 RIGHE DI CODICE QUI MA MI SEMBRAVA GIUSTO CAMBIARE IL FONT */
+
+     h1 {
         font-size: 3rem;
     }
 
@@ -163,42 +166,7 @@ img {
         font-size: 2rem;
     }
 
-    .steps {
-        display: flex;
-    }
-
-    .why-us {
-        display: flex;
-    }
-
-    .container{
-        width: 100%;
-    }
-
-    .row{
-        flex-wrap: wrap;
-        gap: 5rem;
-    }
-
-    .lessons .col{
-        width: 100%;
-    }
-
-    .steps .col{
-        width: 100%;
-    }
-  
-    .why-us .col-left{
-        width: 100%;
-    }
-
-     .why-us .col-right{
-        width: 100%;
-    }
-
-
 }
-
 
 
 
