@@ -163,10 +163,6 @@ img {
         font-size: 2rem;
     }
 
-    .lessons {
-        display: flex;
-    }
-
     .steps {
         display: flex;
     }
@@ -175,6 +171,30 @@ img {
         display: flex;
     }
 
+    .container{
+        width: 100%;
+    }
+
+    .row{
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+
+    .lessons .col{
+        width: 100%;
+    }
+
+    .steps .col{
+        width: 100%;
+    }
+  
+    .why-us .col-left{
+        width: 100%;
+    }
+
+     .why-us .col-right{
+        width: 100%;
+    }
 
 
 }
